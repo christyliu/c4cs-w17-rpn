@@ -2,4 +2,6 @@ language: python
 python:
   - "3.5"
 # command to run tests
+install:
+  - pip3 install termcolor
 script: make test
