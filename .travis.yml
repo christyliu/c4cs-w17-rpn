@@ -6,6 +6,6 @@ install:
   - pip3 install termcolor
 script:
   - make test
-  - coverage --source rpn run test_rpn.py 
+  - coverage --source rpn 
 after-success:
   - coveralls
