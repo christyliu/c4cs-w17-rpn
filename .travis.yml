@@ -4,4 +4,8 @@ python:
 # command to run tests
 install:
   - pip3 install termcolor
-script: make test
+script:
+  - make test
+  - coverage --source rpn run test_rpn.py 
+after-success:
+  - coveralls
