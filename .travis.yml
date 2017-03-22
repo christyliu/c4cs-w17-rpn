@@ -4,6 +4,7 @@ python:
 # command to run tests
 install:
   - pip3 install termcolor
+  - pip install coverage
 script:
   - make test
   - coverage run -m unittest
