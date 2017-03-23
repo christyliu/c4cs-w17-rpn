@@ -14,5 +14,6 @@ class TestBasics(unittest.TestCase):
 	def test_divide(self):
 		result = rpn.calculate('5 5 /')
 		self.assertEqual(1, result)
-	def test_quit(self):
-		result = rpn.calculate('q')
+	def test_A(self):
+		result = rpn.calculate('5 1 2 + 4 * + 3 -') # taken from wikipedia page
+		self.assertEqual(14, result)
