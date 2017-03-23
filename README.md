@@ -1,5 +1,5 @@
 A RPN Calculator for C4CS
------
+----
 
 
 [![Build Status](https://travis-ci.org/cyanliu/c4cs-w17-rpn.svg?branch=master)](https://travis-ci.org/cyanliu/c4cs-w17-rpn)
