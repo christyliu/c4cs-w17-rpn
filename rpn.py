@@ -4,8 +4,6 @@ import readline
 import operator
 import sys
 from termcolor import colored, cprint
-#from colored import fg, bg, attr
-#from colorama
 
 OPERATORS = {
 	'+': operator.add,
